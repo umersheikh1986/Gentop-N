@@ -8,11 +8,15 @@ const Mentality = () => {
       <div>
         <h1 className="text-6xl mt-6 text-white text-center"> Road Map</h1>
       </div>
-      <section className="grid grid-cols-2 gap-2 p-5 items-center">
+      <section className="grid grid-cols-2 gap-2 p-4 items-center">
         {/* First Div */}
         <div className="text-white mx-auto px-6 flex flex-col justify-between ">
           <p className="mt-5 font-medium text-xl">
-          Since it’s beginning in December 2022 our community has been growing on the basis of transparency, sustainability and decentralization. First we launched the Genios 3x2 and 3x5 gifting matrix system to help our members learn how solidarity capitalization works. Now we are ready to go on to our next phases: 
+            Since it’s beginning in December 2022 our community has been growing
+            on the basis of transparency, sustainability and decentralization.
+            First we launched the Genios 3x2 and 3x5 gifting matrix system to
+            help our members learn how solidarity capitalization works. Now we
+            are ready to go on to our next phases:
           </p>
 
           <div className="py-2">
@@ -29,8 +33,14 @@ const Mentality = () => {
         <div className="text-white grid grid-rows-3  ">
           <div className=" gap-2 flex flex-col p-4 py-10 ">
             <div className="flex  flex-row gap-2">
-              <RiInstanceLine className="h-8 w-8  text-yellow-600" />{" "}
-              <span className="text-xl">How we Started</span>
+              <ul>
+                <li>
+                  <h2>2024 Q4 </h2>
+                  <p>Staking </p>
+                  <p>DEX Listing </p>
+                  <p>Education Platform </p>
+                </li>
+              </ul>
             </div>
             <div>
               <p>
